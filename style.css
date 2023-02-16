@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{ /* o "*" serve para informar que as especificações abaixo servirão para todos os atributos*/
+    margin:0;
+    padding:0;
+}
+
+body {
+    height: 100vh; /* altura = 100 % da view port height, que é a tela do nosso projeto */
+    box-sizing: 100%; /* serve para que o nosso conteúdo (Child container) não saia do Parent container. Importante usar para que não temha risco da imagem sair do body  */
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: aqua;
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo_titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo_paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links_link {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0; /* o primeiro valor é referente ao padding top e botton, já o segundo valor se refere ao left e right */
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
